@@ -1,0 +1,106 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Gigerly - Personal Portfolio HTML5 Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-fun-fact-section
+	3.3 wpo-about-section
+	3.4 wpo-service-area
+	3.5 wpo-project-section
+	3.6 wpo-testimonials-section
+	3.7 wpo-portfolio-section
+	3.8 wpo-blog-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1	wpo-about-section-s2
+   5.2	wpo-project-section-s2
+
+6. Home-style-3
+   6.1 wpo-fun-fact-section-s4
+   6.2 wpo-about-section-s3
+   6.3 wpo-project-section-s3
+   6.4 wpo-testimonials-section-s2
+
+7. Home-style-4
+   7.1 digital-marque-sec
+   7.2 wpo-about-section-s4
+   7.3 wpo-service-area-s2
+   7.4 wpo-testimonials-section-s3
+   7.5 wpo-contact-section
+
+8. wpo-protfolio-page
+
+9. wpo-project-single
+
+10. wpo-service-single
+
+11. wpo-blog-pg-section
+
+12. wpo-blog-single-section
+
+13. wpo-contact-pg-section
+
+14. error-404-section
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// page
+@import "page/home-default";
+@import "page/home-style2";
+@import "page/home-style3";
+@import "page/home-style4";
+
+@import "page/portfolio";
+
+@import "page/portfolio-single";
+
+@import "page/service-single";
+
+@import "page/_blog";
+
+@import "page/_blog-single";
+
+
+

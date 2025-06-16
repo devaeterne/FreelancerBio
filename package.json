@@ -1,7 +1,7 @@
 {
-  "name": "awwa",
+  "name": "Gigerly",
   "version": "0.1.0",
-  "homepage": "http://awwa-react.wpolive.com",
+  "homepage": "http://Gigerly-react.wpolive.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",

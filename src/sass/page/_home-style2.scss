@@ -1,0 +1,164 @@
+/*------------------------------------
+5. Home-style-2
+------------------------------------*/
+
+/*------------------------------------
+5.1	wpo-about-section-s2
+------------------------------------*/
+.wpo-about-section-s2 {
+    .about-content {
+        h2 {
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: $black;
+            margin-bottom: 30px;
+
+            @media(max-width:1440px) {
+                font-size: 50px;
+            }
+
+            @media(max-width:1199px) {
+                font-size: 40px;
+            }
+
+            @media(max-width:575px) {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+        }
+
+        p {
+            color: $black;
+            margin-bottom: 30px;
+        }
+
+        .about-funfact {
+            display: flex;
+
+            .about-funfact-item {
+                &+.about-funfact-item {
+                    margin-left: 70px;
+
+                    @media(max-width:575px) {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 35px;
+
+                @media(max-width:1440px) {
+                    font-size: 40px;
+                    margin: 0;
+                }
+
+                @media(max-width:575px) {
+                    font-size: 30px;
+                }
+            }
+
+            small {
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 50px;
+                color: $black;
+
+                @media(max-width:1440px) {
+                    font-size: 16px;
+                }
+
+                @media(max-width:575px) {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        @media(max-width:991px) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/*------------------------------------
+5.2	wpo-project-section-s2
+------------------------------------*/
+
+.wpo-project-section-s2 {
+    .wpo-project-item {
+        margin-bottom: 60px;
+
+        @media(max-width:991px) {
+            margin-bottom: 40px;
+        }
+
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .wpo-project-img {
+            animation: unset;
+            margin: 0;
+            border-radius: 0;
+
+            @media(max-width:575px) {
+                padding: 10px;
+            }
+
+            img {
+                border-radius: 0;
+            }
+        }
+
+        .wpo-project-text {
+            margin: 0;
+            animation: unset;
+            background: none;
+            border-radius: 0;
+            border: 0;
+            max-width: 452px;
+
+            @media(max-width:991px) {
+                margin: 0 auto;
+                margin-top: 30px;
+            }
+
+            @media(max-width:575px) {
+                padding: 0;
+            }
+
+            .wpo-project-text-inner {
+                padding: 0px;
+                border-radius: 0;
+                border: 0;
+            }
+        }
+
+        &:nth-child(even) {
+
+            .col{
+                &:first-child {
+                    order: 2;
+                }
+            }
+
+            .wpo-project-text {
+                text-align: right;
+                margin-left: auto;
+
+                @media(max-width:991px) {
+                    margin: 0 auto;
+                    margin-top: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
